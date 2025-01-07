@@ -1,0 +1,17 @@
+
+set(prolog_style_variables).
+
+formulas(assumptions).
+Pacman(5,6).
+Food(3,3).
+Food(7,7).
+Ghost(4,4).
+Ghost(6,6).
+
+MoveSafe(X, Y).
+
+end_of_list.
+
+formulas(goals).
+MoveSafe(5,5).
+end_of_list.
